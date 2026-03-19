@@ -12,7 +12,7 @@ A high-performance, multithreaded desktop trading simulator built with Java and 
 
 | Live Trading Dashboard | Complete Transaction Ledger |
 | :---: | :---: |
-| ![Dashboard](placeholder-link-to-dashboard-screenshot.png) | ![Ledger](placeholder-link-to-ledger-screenshot.png) |
+| ![Dashboard](src/main/resourcesassets/placeholder-link-to-dashboard-screenshot.png) | ![Ledger](placeholder-link-to-ledger-screenshot.png) |
 
 ## ✨ Key Features
 
