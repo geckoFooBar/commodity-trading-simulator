@@ -106,7 +106,7 @@ INSERT INTO Player (username, password, cash_balance) VALUES ('testuser', 'passw
 ```
 
 ## 3. Configure Database Credentials
-### Navigate to DatabaseConnection.java (or your DAO configuration class) in the source code. Update the JDBC URL, username, and password to match your local MySQL configuration:
+**Navigate to DatabaseConnection.java (or your DAO configuration class) in the source code. Update the JDBC URL, username, and password to match your local MySQL configuration:**
 
 ```
 public class DatabaseConnection {
