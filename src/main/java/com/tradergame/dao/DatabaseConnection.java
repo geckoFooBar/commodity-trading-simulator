@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/global_commodity_trader";
-    private static final String USER = "root";
-    private static final String PASSWORD = "y3llow/Tee";
+    private static final String URL = "jdbc:mysql://localhost:3306/db_name"; // By default MySQL uses port 3006
+    private static final String USER = "user"; // Change it to your MySQL username
+    private static final String PASSWORD = "password"; // Change it to your MySQL password
 
     static {
         try {
