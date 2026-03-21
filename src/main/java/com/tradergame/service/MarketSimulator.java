@@ -97,7 +97,6 @@ public class MarketSimulator implements Runnable {
                 int targetId = rs.getInt("target_commodity_id");
                 double multiplier = rs.getDouble("price_multiplier");
 
-                // 1. Apply the Price Swing
                 PreparedStatement swingStmt = conn.prepareStatement(
                         "UPDATE Commodity SET current_price = current_price * ? WHERE commodity_id = ?"
                 );

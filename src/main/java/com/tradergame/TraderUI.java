@@ -61,11 +61,9 @@ public class TraderUI extends JFrame {
         simulator = new MarketSimulator();
         new Thread(simulator).start();
 
-        // --- NEW: Tabbed Pane Setup ---
         JTabbedPane tabbedPane = new JTabbedPane();
         tabbedPane.setFont(new Font("SansSerif", Font.BOLD, 14));
 
-        // Build the two main panels
         JPanel dashboardPanel = buildDashboardTab();
         JPanel historyPanel = buildHistoryTab();
 
